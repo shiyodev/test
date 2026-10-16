@@ -2,7 +2,7 @@ name: Update Resources
 on:
   workflow_dispatch:
   schedule:
-    - cron: '01 23 * * *'
+    - cron: '0/10 * * * *'
 jobs:
   update:
     name: Update game resources
